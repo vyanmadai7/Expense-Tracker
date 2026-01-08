@@ -1,32 +1,42 @@
-# Expense-Tracker
-A simple command-line expense tracking program that helps you monitor your spending by recording and displaying expenses.
-Key Features:
+Expense Tracker
 
-Add expenses with custom names and amounts
-View all recorded expenses with running total
-Persistent storage using JSON
-Clean, interactive command-line interface
-Automatic data saving after each entry
+A simple program you can run in the command line to keep track of your spending. You can add expenses and see your total spending.
 
-Installation
+Main Features
 
-Ensure you have Python 3.6 or higher installed on your system
+Add expenses with a name and amount
+
+See all your expenses and total spent
+
+Save data automatically in a JSON file
+
+Easy-to-use command-line interface
+
+Data is saved automatically after each entry
+
+How to Install
+
+Make sure Python 3.6 or higher is installed
+
 Download the expense_tracker.py file
-No additional dependencies required - uses only Python standard library
 
-Usage
-Run the application from your terminal:
-bashpython expense_tracker.py
-```
+No extra packages needed — it works with just Python
 
-### Menu Options
+How to Use
 
-1. **Show expenses** - Displays all recorded expenses with their amounts and calculates the total spent
-2. **Add expense** - Prompts you to enter a new expense name and amount
-3. **Exit** - Closes the application
+Run the program in your terminal:
 
-### Example Session
-```
+python expense_tracker.py
+
+Menu Options
+
+Show expenses – See all your expenses and total amount spent
+
+Add expense – Enter a new expense name and amount
+
+Exit – Close the program
+
+Example
 Expense Tracker
 1. Show expenses
 2. Add expense
@@ -41,14 +51,19 @@ Expense Tracker
 2. Add expense
 3. Exit
 Choose: 1
-1. Groceries: $45.5
-Total spent: $45.5
+1. Groceries: $45.50
+Total spent: $45.50
+
 Data Storage
-Expenses are automatically saved to expenses.json in the same directory as the script. This file is created automatically on first use and persists between sessions.
+
+All expenses are saved automatically in a file called expenses.json in the same folder as the program. The file is created the first time you run the program and keeps your data for future use.
+
 Requirements
 
-Python 3.6+
-No external packages required
+Python 3.6 or higher
+
+No extra packages needed
 
 License
-This project is open source and available for personal and educational use.
+
+This project is open source and free to use for learning or personal use.
